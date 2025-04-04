@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4311286388648751728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96832216
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.24970408
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -28.92
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1350123677164246593, guid: 1a6127cdb12e5e041b2a51d62a079fd1, type: 3}
+    - target: {fileID: 919132149155446097, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      propertyPath: m_Name
+      value: TorreDeBrennand
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9119703095773020705}
+  m_SourcePrefab: {fileID: 100100000, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+--- !u!1 &3969269898209627937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d9f564231e4bff488b0ffa170b70d33, type: 3}
+  m_PrefabInstance: {fileID: 4311286388648751728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9119703095773020705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969269898209627937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3d0e3f52dfe4243aceaba16f9cd0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _altitudeOffset: NaN
+  _latitude: -8.055892828747961
+  _longitude: -34.95181315258919
+  _altitude: 1.6000545443966985
+  _altitudeType: 1
+  _useEditorAltitudeOverride: 0
+  _editorAltitudeOverride: 0
+  _anchorManager: {fileID: 0}
+  Origin: {fileID: 0}
